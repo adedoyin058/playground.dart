@@ -1,10 +1,12 @@
 
 main(){
-  var names = ['jack', 'jill', 'tola','alice', 10, 100, 100.28];
-    print(names.length);
-    names[0] = 'tunde';
-    for(var n in names){
-      print(n);
+  var gifts = {
+    // keys:   values
+       2:     'partridge';
+       1:     'turtledoves';
+       3:     'golden rings'
+  };
+      print(gifts [3]);
     }
+ 
   
-}
