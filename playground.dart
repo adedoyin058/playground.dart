@@ -1,6 +1,6 @@
 
 main(){
-  List names = ['jack', 'jill'];
-    print(names [1]);
+  List names = ['jack', 'jill', 'tola','alice'];
+    print(names.length);
   
 }
