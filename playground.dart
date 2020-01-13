@@ -1,5 +1,6 @@
 // random names for establising a company
 import 'dart:io';
+
 main(){
    
      var lst = new List(8);
@@ -24,6 +25,7 @@ print('');
      print('The name of your company now is:  '+''+'$input'.toUpperCase());
      
    }
+   print(lst.length);
    //var input = stdin.readLineSync();
    //print('The total addition is:  '+''+'$input'.toUpperCase());
    
