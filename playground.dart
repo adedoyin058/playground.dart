@@ -1,38 +1,62 @@
 // random names for establising a company
+import 'dart:io';
 main(){
-  var n1= 'Paritie Dynamic';   
-  var n2= 'Goodtime company'; 
-  var n3= 'Adeddoyin&co'; 
+   
+     var lst = new List(10);
+      lst [0]= 'adedoyin&co \n';
+      lst [1]= 'Goodtime company \n';
+      lst [2]= 'Boomerang \n';
+      lst [3]= 'Solar.ng \n';
+      lst [4]= 'Adedoyin.ng \n';
+      lst [5]= 'Ade.ng \n';
+
+print(lst);
+print('Please choose from the names listed above  to name your company');
+print('');
+   print('supply the name you will like to name your company');
+  
+  var input = stdin.readLineSync();
+     print('The name of your company now is:  '+''+'$input'.toUpperCase());
+  //print(input.toUpperCase());
+
+}
+  // var n1= 'Paritie Dynamic';   
+ //var n2= 'Goodtime company'; 
+ //var n3= 'Adeddoyin&co'; 
 
 
-print ('What name will you like to name your company? You can choose from the options below ==>');
+//print ('What name will you like to name your company? You can choose from the options below ==>');
 
 
-print(n1);
-print(n2);
-print(n3);
+//print(n1);
+//print(n2);
+//print(n3);
 //print('Choose from the names given above");
-if (n1 == 'Paritie Dynamic' )
-{
-  print('');
-  print('Congratulations!!! Now your company name will be Paritie Dynamic');
-
-   }
-
-    else if (n2 =='Paritie Dynamic')
-{
-  print('');
-  print('Congratulations!!! Now your company name will be Goodtime company');
+//if  ( n1 == 'Paritie Dynamic' )
+//{
+  //print('');
+  //print('Congratulations!!! Now your company name will be Paritie Dynamic');
 
 
-    }
+   //}
+   
+     //if (  n2 == n2)
+//{
+  //print('');
+ //print('Congratulations!!! Now your company name will be Goodtime company');
+
+
+   // }
   
  
-       else if (n2 == 'Paritie Dynamic')
-{
-  print('');
-  print('Congratulations!!! Now your company name will be Adeddoyin&co');
+       //else  (n3 == 'Adeddoyin&co') ;
 
-}
- print(n1);
-}
+  //print('');
+  //print('Congratulations!!! Now your company name will be Adeddoyin&co');
+
+
+//print('');
+  // print('The name of your company is'+ '' +' $n1');
+
+
+ 
