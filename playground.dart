@@ -1,16 +1,21 @@
-import 'dart:io';
-import 'dart:convert';
 
+import 'dart:core';
 main(){
-var url = Platform.script.toFilePath();
-var filename = Platform.script.toFilePath();
-print(filename);
+     div(x,y){
+      return x ~/ y;
+     }
+  try{
 
-var file = new File(filename);
-var finished = file.readAsLines(encoding: utf8);
-finished.then((text)=> text.forEach ((line) => print(line)));
-  
-
-
-}
-
+    print(div(2,1));
+        print(div(2,0));
+        print(div(3,1));
+    
+      }
+      catch( Exception,stacktrace){
+        print( Exception);
+     print(stacktrace);
+      }
+      print("still working");
+    }
+    
+    
