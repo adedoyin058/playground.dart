@@ -1,18 +1,16 @@
-// random names for establising a company
+import 'dart:io';
+import 'dart:convert';
 
+main(){
+var url = Platform.script.toFilePath();
+var filename = Platform.script.toFilePath();
+print(filename);
 
-import 'dart:core';
-//import 'package:random_string/random_string.dart';
-
-void main(){
- 
-  StringBuffer sb = new StringBuffer();
-  sb.write("Hello");
-  sb.writeAll(['space \d ', 'and \d ', 'more \n']);
- 
-  print(sb);
-  print(sb.toString());
+var file = new File(filename);
+var finished = file.readAsLines(encoding: utf8);
+finished.then((text)=> text.forEach ((line) => print(line)));
   
-  sb.clear();
+
+
 }
-       
+
